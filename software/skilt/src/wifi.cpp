@@ -17,6 +17,7 @@ static bool wifiConnected = false;
 void wifi_init()
 {
   WiFiMulti.addAP("hal9k", "");
+  WiFiMulti.addAP("naboen", "wonderfulworld");
 }
 
 void wifi_run()
